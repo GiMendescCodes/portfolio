@@ -15,7 +15,7 @@ require_once("cabecalho.php");
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Nome Site</label>
-			<input name="nome>" type="text" class="form-control" placeholder="Nome do Site" value="<?php echo $nome_sistema ?>" required>
+			<input name="nome" type="text" class="form-control" placeholder="Nome do Site" value="<?php echo $nome_sistema ?>" required>
 		</div>
 	</div>
 
@@ -88,7 +88,7 @@ require_once("cabecalho.php");
     <div class="col-md-3 col-6">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Cor Template Hexadecimal</label>
-			<input name="cor" type=text" class="form-control" placeholder="cor" value="<?php echo $cor_sistema ?>" required>
+			<input name="cor" type=text" class="form-control" placeholder="" value="<?php echo $cor_sistema ?>" required>
 		</div>
 	</div>
 </div>
@@ -96,7 +96,7 @@ require_once("cabecalho.php");
     <div class="col-md-12 col-6">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Texto Rodapé Site</label>
-			<input name="texto_rodape" type="text" class="form-control" placeholder="texto" value="<?php echo $texto_rodape ?>" required>
+			<input name="texto_rodape" type="text" class="form-control" placeholder="" value="<?php echo $texto_rodape ?>" required>
 		</div>
 	</div>
 </div>
@@ -104,7 +104,7 @@ require_once("cabecalho.php");
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Título Contato</label>
-			<input name="titulo_contato" type="text" class="form-control" placeholder="titulo" value="<?php echo $titulo_contato ?>" required>
+			<input name="titulo_contato" type="text" class="form-control" placeholder="" value="<?php echo $titulo_contato ?>" required>
 		</div>
 	</div>
 	<div class="col-md-4">

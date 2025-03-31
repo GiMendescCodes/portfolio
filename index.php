@@ -1,3 +1,8 @@
+<?php
+require_once("sistema/conexao.php");
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -35,7 +40,7 @@
                 </button>
 
                 <!-- Logo text or image -->
-                <a class="navbar-brand" href="index.html">Alstar</a>
+                <a class="navbar-brand" href="index.php"><?php echo $nome_sistema ?></a>
 
             </div>
             <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
