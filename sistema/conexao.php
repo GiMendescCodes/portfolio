@@ -70,5 +70,5 @@ $imagem_sobre = $res[0]['imagem'];
 $exibir_sobre = $res[0]['exibir'];
 $video_sobre = $res[0]['video'];
 }
- ?>
+?>
 
