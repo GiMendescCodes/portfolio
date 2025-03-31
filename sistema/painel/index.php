@@ -9,13 +9,13 @@ if(@$_SESSION['nome'] == ""){
 require_once("cabecalho.php");
 ?>
 
-
+<form id="form-config">
 
 <div class="row">
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Nome Site</label>
-			<input name="nome" type="text" class="form-control" placeholder="Nome do Site" value="<?php echo $nome_sistema ?>" required>
+			<input name="nome>" type="text" class="form-control" placeholder="Nome do Site" value="<?php echo $nome_sistema ?>" required>
 		</div>
 	</div>
 
@@ -47,21 +47,21 @@ require_once("cabecalho.php");
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Endereço</label>
-			<input name="nome" type="text" class="form-control" placeholder="Endereço (se houver)" value="<?php echo $endereco_sistema ?>" required>
+			<input name="endereco" type="text" class="form-control" placeholder="Endereço (se houver)" value="<?php echo $endereco_sistema ?>" required>
 		</div>
 	</div>
 
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Instagram</label>
-			<input name="email" type="email" class="form-control" placeholder="Instagram (se houver)" value="<?php echo $instagram_sistema ?>" required>
+			<input name="instagram" type="email" class="form-control" placeholder="Instagram (se houver)" value="<?php echo $instagram_sistema ?>" required>
 		</div>
 	</div>
 
 	<div class="col-md-4 col-6">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Twitter</label>
-			<input name="senha" type="text" class="form-control" placeholder="Twitter(se houver)" value="<?php echo $twitter_sistema ?>" required>
+			<input name="twitter" type="text" class="form-control" placeholder="Twitter(se houver)" value="<?php echo $twitter_sistema ?>" required>
 		</div>
 	</div>
 </div>
@@ -69,26 +69,26 @@ require_once("cabecalho.php");
 	<div class="col-md-3">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Facebook</label>
-			<input name="nome" type="text" class="form-control" placeholder="Facebook (se houver)" value="<?php echo $facebook_sistema ?>" required>
+			<input name="facebook" type="text" class="form-control" placeholder="Facebook (se houver)" value="<?php echo $facebook_sistema ?>" required>
 		</div>
 	</div>
 
 	<div class="col-md-3">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Linkedin</label>
-			<input name="email" type="email" class="form-control" placeholder="Linkdin (se houver)" value="<?php echo $linkedin_sistema ?>" required>
+			<input name="linkedin" type="email" class="form-control" placeholder="Linkdin (se houver)" value="<?php echo $linkedin_sistema ?>" required>
 		</div>
 	</div>
 	<div class="col-md-3 col-6">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Youtube</label>
-			<input name="senha" type="text" class="form-control" placeholder="Youtube (se houver)" value="<?php echo $youtube_sistema ?>" required>
+			<input name="youtube" type="text" class="form-control" placeholder="Youtube (se houver)" value="<?php echo $youtube_sistema ?>" required>
 		</div>
 	</div>
     <div class="col-md-3 col-6">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Cor Template Hexadecimal</label>
-			<input name="senha" type="text" class="form-control" placeholder="" value="<?php echo $cor_sistema ?>" required>
+			<input name="cor" type=text" class="form-control" placeholder="cor" value="<?php echo $cor_sistema ?>" required>
 		</div>
 	</div>
 </div>
@@ -96,7 +96,7 @@ require_once("cabecalho.php");
     <div class="col-md-12 col-6">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Texto Rodapé Site</label>
-			<input name="senha" type="text" class="form-control" placeholder="" value="<?php echo $texto_rodape ?>" required>
+			<input name="texto_rodape" type="text" class="form-control" placeholder="texto" value="<?php echo $texto_rodape ?>" required>
 		</div>
 	</div>
 </div>
@@ -104,13 +104,13 @@ require_once("cabecalho.php");
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Título Contato</label>
-			<input name="nome" type="text" class="form-control" placeholder="" value="<?php echo $titulo_contato ?>" required>
+			<input name="titulo_contato" type="text" class="form-control" placeholder="titulo" value="<?php echo $titulo_contato ?>" required>
 		</div>
 	</div>
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Subtitulo Contato</label>
-			<input name="email" type="email" class="form-control" placeholder="Linkdin (se houver)" value="<?php echo $subtitulo_contato ?>" required>
+			<input name="subtitulo_contato" type="text" class="form-control" placeholder="Linkdin (se houver)" value="<?php echo $subtitulo_contato ?>" required>
 		</div>
 	</div>
    
@@ -151,6 +151,7 @@ require_once("cabecalho.php");
 <small><div id="mensagem" align="center"></div></small>
 
 </form>
+
 
 <script type="text/javascript">
 

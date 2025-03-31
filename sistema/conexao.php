@@ -2,7 +2,7 @@
 
 $usuario = 'root';
 $senha = '';
-$banco = 'portifolio';
+$banco = 'portfolio';
 $servidor = 'localhost';
 
 date_default_timezone_set('America/Sao_Paulo');
@@ -56,19 +56,5 @@ $texto_rodape = $res[0]['texto_rodape'];
 $whatsapp_sistema = '55'.preg_replace('/[ ()-]+/' , '' , $telefone_sistema);
 }
 
-$query = $pdo->query("SELECT * FROM sobre");
-$res = $query->fetchAll(PDO::FETCH_ASSOC);
-$total_reg = @count($res);
-if($total_reg == 0){
-	$pdo->query("INSERT INTO sobre SET titulo = 'Sobre', subtitulo = 'Subtitulo caso Exista', 
-	descricao = 'Descrição da página Sobre', imagem = 'sem-foto.jpg', exibir = 'Imagem'");
-}else{
-$titulo_sobre = $res[0]['titulo'];
-$subtitulo_sobre = $res[0]['subtitulo'];
-$descricao_sobre = $res[0]['descricao'];
-$imagem_sobre = $res[0]['imagem'];
-$exibir_sobre = $res[0]['exibir'];
-$video_sobre = $res[0]['video'];
-}
 ?>
 
