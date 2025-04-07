@@ -321,10 +321,10 @@ var Grid = (function() {
 			// create Preview structure:
 			this.$title = $( '<h4></h4>' );
 			this.$description = $( '<p></p>' );
-			this.$href = $( '<a href="#" class="btn btn-theme">External link</a>' );
+			this.$href = $( '<a target="_blank" id="link-trabalho" href="#" class="btn btn-theme">Link Externo</a>' );
 			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 			this.$loading = $( '<div class="og-loading"></div>' );
-			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
+			this.$fullimage = $( '<div class="og-fullimg" id="div-img"></div>' ).append( this.$loading );
 			this.$closePreview = $( '<span class="og-close"></span>' );
 			this.$previewInner = $( '<div class="og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
 			this.$previewEl = $( '<div class="og-expander"></div>' ).append( this.$previewInner );
@@ -361,6 +361,12 @@ var Grid = (function() {
 					title : $itemEl.data( 'title' ),
 					description : $itemEl.data( 'description' )
 				};
+
+				if(eldata.href == ""){
+					document.getElementById('link-trabalho').style.display = 'none';
+				}else{
+					document.getElementById('link-trabalho').style.display = 'inline-block';
+				}
 
 			this.$title.html( eldata.title );
 			this.$description.html( eldata.description );
