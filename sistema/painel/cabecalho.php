@@ -6,6 +6,7 @@ require_once("../conexao.php");
 <html>
 
 <head>
+<script type="text/javascript" src="js/ajax.js"></script>
   <title><?php echo $nome_sistema ?></title>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">

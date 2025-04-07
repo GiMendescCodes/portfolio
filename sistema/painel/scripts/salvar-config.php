@@ -17,7 +17,7 @@ $texto_rodape = $_POST['texto_rodape'];
 
 //SCRIPT PARA SUBIR FOTO NO SERVIDOR
 $nome_img = 'logo.png';
-$caminho = '../../img/' .$nome_img;
+$caminho = '../../imgs/' .$nome_img;
 
 $imagem_temp = @$_FILES['logo']['tmp_name']; 
 
@@ -34,7 +34,7 @@ if(@$_FILES['logo']['name'] != ""){
 
 //SCRIPT PARA SUBIR FOTO NO SERVIDOR
 $nome_img = 'icone.png';
-$caminho = '../../img/' .$nome_img;
+$caminho = '../../imgs/' .$nome_img;
 
 $imagem_temp = @$_FILES['icone']['tmp_name']; 
 
@@ -55,4 +55,4 @@ titulo_contato = '$titulo_contato', subtitulo_contato = '$subtitulo_contato', te
 
 echo 'Salvo com Sucesso';
 
- ?>
+?>
