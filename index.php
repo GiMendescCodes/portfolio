@@ -7,7 +7,7 @@ require_once("sistema/conexao.php");
 <html>
 
 <head>
-    <title>Alstar - Bootstrap one page parallax template</title>
+    <title><?php echo $nome_sistema ?></title>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- css -->
@@ -16,7 +16,6 @@ require_once("sistema/conexao.php");
 
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
-    <link href="color/default.css" rel="stylesheet" media="screen">
 
     <!-- =======================================================
     Theme Name: Alstar
@@ -24,7 +23,56 @@ require_once("sistema/conexao.php");
     Author: BootstrapMade.com
     Author URL: https://bootstrapmade.com
   ======================================================= -->
+  <link rel="shortcut icon" type="image/x-icon" href="sistema/imgs/icone.png">
 </head>
+
+<style type="text/css">
+
+a, a:hover {
+  color: <?php echo $cor_sistema ?>;
+}
+
+
+/* Back to top button */
+.back-to-top {
+  background: <?php echo $cor_sistema ?>;
+  color: #fff;
+}
+
+
+.back-to-top:focus {
+  background: <?php echo $cor_sistema ?>;
+  color: #fff;
+}
+
+.back-to-top:hover {
+  background: <?php echo $cor_sistema ?>;
+  color: #fff;
+}
+
+.navbar-default {
+  background: <?php echo $cor_sistema ?>;
+}
+
+.form-control:focus {
+  border-color: <?php echo $cor_sistema ?>;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #00c1c1;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #00c1c1;
+}
+
+.service .carousel-indicators .active {
+  background: <?php echo $cor_sistema ?>;
+}
+
+.btn-theme {
+  background: <?php echo $cor_sistema ?>;
+}
+
+.contact-widget i {
+  color: <?php echo $cor_sistema ?>;
+}
+
+</style>
 
 <body>
 

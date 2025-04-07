@@ -18,7 +18,7 @@ require_once("../conexao.php");
 
   <script type="text/javascript" src="js/ajax.js"></script>
 
-  <link rel="shortcut icon" type="image/x-icon" href="../img/icone.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../imgs/icone.png">
 
   <!-- jQery -->
 
