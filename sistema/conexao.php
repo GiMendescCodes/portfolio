@@ -17,7 +17,7 @@ try {
 }
 
 //Variáveis de Configuração do Sistema.
-$nome_sistema = 'Projetos';
+$nome_sistema = 'Portfolio';
 $email_sistema = 'admin@gmail.com';
 $telefone_sistema = '(11)98765-4321';
 $endereco_sistema = '';
