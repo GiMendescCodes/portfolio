@@ -24,7 +24,7 @@ require_once("conexao.php");
         <div class="card shadow-2-strong" style="border-radius: 1rem;">
           <div class="card-body p-5 text-center">
           	
-          	<img src="imgs/Logo.png" width="200px" height="200px" style="margin-bottom: 20px">
+          	<img src="img/Logo.png" width="200px" height="200px" style="margin-bottom: 20px">
 
           	<form method="post" action="autenticar.php">
             <div class="form-outline mb-4">

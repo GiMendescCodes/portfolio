@@ -127,7 +127,7 @@ require_once("cabecalho.php");
 		</div>
 	</div>
 	<div class="col-md-2 col-4">
-		<div><img id="target-logo" src="../imgs/logo.png" width="110px" style="margin-top: 15px"></div>
+		<div><img id="target-logo" src="../img/logo.png" width="110px" style="margin-top: 15px"></div>
 	</div>
 
 	<div class="col-md-4 col-8">
@@ -137,7 +137,7 @@ require_once("cabecalho.php");
 		</div>
 	</div>
 	<div class="col-md-2 col-4">
-		<div><img id="target-icone" src="../imgs/icone.png" width="50px" style="margin-top: 25px"></div>
+		<div><img id="target-icone" src="../img/icone.png" width="50px" style="margin-top: 25px"></div>
 	</div>
 
 

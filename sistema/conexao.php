@@ -1,5 +1,6 @@
 <?php 
 
+//Configuração do Banco de Dados.
 $usuario = 'root';
 $senha = '';
 $banco = 'portfolio';
@@ -15,14 +16,14 @@ try {
 	echo $e;
 }
 
-//valores para as variaveis do sistema
-$nome_sistema = 'portfolio';
-$email_sistema = 'giovannamendessenai@gmail.com';
-$telefone_sistema = '(11)986157702';
+//Variáveis de Configuração do Sistema.
+$nome_sistema = 'Projetos';
+$email_sistema = 'admin@gmail.com';
+$telefone_sistema = '(11)98765-4321';
 $endereco_sistema = '';
 $senha_sistema = '123';
 
-//verificar se existem dados na tabela config
+//verificar se existem dados na tabela config e inserção na mesma.
 $query = $pdo->query("SELECT * FROM config");
 $res = $query->fetchAll(PDO::FETCH_ASSOC);
 $total_reg = @count($res);
@@ -71,5 +72,3 @@ $exibir_sobre = $res[0]['exibir'];
 $video_sobre = $res[0]['video'];
 }
  ?>
-
-

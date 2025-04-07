@@ -15,7 +15,7 @@ require_once("sistema/conexao.php")
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/style.css" rel="stylesheet" media="screen">
   
-  <link rel="shortcut icon" type="image/x-icon" href="sistema/img/icone.png">
+  <link rel="shortcut icon" type="image/x-icon" href="sistema/imgs/icone.png">
 
 </head>
 
@@ -175,7 +175,7 @@ if($total_reg > 0){
 
           <!-- Slide 1 -->
           <div class="item <?php echo $active ?>">
-            <div class="carousel-background"><img src="sistema/img/banners/<?php echo $imagem ?>" alt=""></div>
+            <div class="carousel-background"><img src="sistema/imgs/banners/<?php echo $imagem ?>" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animated fadeInDown"><?php echo $titulo ?></h2>
@@ -369,8 +369,8 @@ if($total_reg > 0){
 
     ?>
             <li>
-    <a href="<?php echo $link ?>" data-largesrc="sistema/img/trabalhos/<?php echo $imagem ?>" data-title="<?php echo $titulo ?>" data-description="<?php echo $descricao ?>" onclick="chamarImg('<?php echo $exibir ?>', '<?php echo $video ?>')">                
-    <img src="sistema/img/trabalhos/<?php echo $imagem ?>" alt=""/>
+    <a href="<?php echo $link ?>" data-largesrc="sistema/imgs/trabalhos/<?php echo $imagem ?>" data-title="<?php echo $titulo ?>" data-description="<?php echo $descricao ?>" onclick="chamarImg('<?php echo $exibir ?>', '<?php echo $video ?>')">                
+    <img src="sistema/imgs/trabalhos/<?php echo $imagem ?>" alt=""/>
                  
               </a>
             </li>
